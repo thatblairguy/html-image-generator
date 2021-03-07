@@ -1,0 +1,11 @@
+{
+    "templates": [
+        {
+            "template":"template/sample.htm",
+            "width": 600,
+            "height": 200
+        }
+    ],
+    "output": "output",
+    "debug": null
+}

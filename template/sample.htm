@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" 
+  		href="https://fonts.googleapis.com/css?family=Teko">
+	<style>
+		body {
+			background-color: #000;
+			margin: 0;
+			padding: 0;
+		}
+
+		.container {
+			width: 580px;
+			height: 180px;
+			border: {{colorCode}} 10px solid;
+		}
+
+		img {
+			margin: 50px;
+			border: none;
+			width: 100px;
+			height: 100px;
+			float: left;
+		}
+
+
+		.name {
+			margin-block-start: 0.5em;
+			margin-block-end: 0.5em;
+			font-family: Teko;
+			font-size: 60pt;
+			color: {{colorCode}};
+		}
+
+	</style>
+
+	<!-- Layout -->
+	<meta name=viewport content="width=device-width, initial-scale=1">
+
+
+</head>
+
+<body>
+	<div class="container">
+		<img src="{{image}}">
+		<p class="name">{{name}}</p>
+	</div>
+</body>
+
+</html>
